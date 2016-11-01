@@ -12,12 +12,12 @@
 - Differentiate between the border-box and content-box values for box-sizing
 - Apply knowledge of the box model to adjust spacing between and around elements on a page
 
-## Opening Framing: The Power of CSS (5 min / 10:00)
-
+## Opening Framing: The Power of CSS
 Questions: 
 
-1. Who knows they want front-end vs. back-end
 1. Who finished the pre-work
+1. Who knows they want front-end vs. back-end
+1. Who wants to be a dev? Start a business? Project manager?
 1. Who has played around with HTML/CSS/JS before WDI?
 
 To start this lesson, I want to mosey on over to my favorite website, [Twitter.com/GA_DC](https://twitter.com/GA_DC). It's pretty great. It's pretty fancy. But what would it be without CSS? Take 1 minute to talk with the people around you about how this wonder of the modern web would look different without CSS, and how that would impact your interactive with the site.
@@ -28,15 +28,19 @@ CSS is powerful. There is such a wide breadth of things to learn about CSS and h
 
 >Fist of Five: How confident are you about CSS? Five is, "Move over, I could teach this class myself". One is more like, "C-what-what, now?"
 
-## In-line vs head vs stylesheets (20 min / 10:05)
+## In-line vs head vs stylesheets
 > You're welcome to code along, but it may be better just to follow along for the first bit. The second half of call will be all hand-ons, and the notes for everything will be available in lesson plan
 
 At the crux of it all, the primary concept of CSS is to select an HTML element and then do something to it. ie. I want to take the body element, and I want to apply a background color to it.
 
-Let's get started by creating a new html webpage that we'll call `index.html` in `~/wdi/sandbox/css/`:
+Let's get started by creating a new html webpage that we'll call `index.html` in `~/Desktop`:
 
 ```bash
+$ cd ~/Desktop
+$ mkdir css-intro
+$ cd css-intro
 $ touch index.html
+$ atom .
 ```
 
 Let's throw some dummy content into HTML inside our `index.html`:
@@ -113,7 +117,7 @@ Ahh, much better. You might be asking yourself, "Self? Isn't this a lot more wor
 
 ### Separation of Concerns
 
-The other big advantage of the stylesheet approach is that it preserve Separation of Concerns. It is possible to style web pages using HTML alone. We did this in the early 2000s using mostly images and table borders. CSS allows us to separate the styles of our website/app from the content and behavior:
+The other big advantage of the stylesheet approach is that it preserves Separation of Concerns. It is possible to style web pages using HTML alone. We did this in the early 2000s using mostly images and table borders. CSS allows us to separate the styles of our website/app from the content and behavior:
 
 - HTML
   - Content
@@ -122,7 +126,7 @@ The other big advantage of the stylesheet approach is that it preserve Separatio
 - JS
   - Behavior
 
-## CSS Selectors (15 min / 10:25)
+## CSS Selectors
 As you can see, there's more than one place to target elements. There's also multiple WAYS you can target elements. Let's throw some additional content in `index.html`:
 
 ```html
@@ -137,7 +141,7 @@ As you can see, there's more than one place to target elements. There's also mul
 
 All I did here was add two `<p>` elements and added a class of "red" to both and an id of "green" to the last. Additionally I added a `<div>` element with a class of red.
 
-The first thing I want to do is make it so all elements with the class of "red" has a background of red. In our `styles.css`:
+The first thing I want to do is make it so all elements with the class of "red" have a background of red. In our `styles.css`:
 
 ```css
 .red {
@@ -220,7 +224,7 @@ The above example can be found at this [codepen](http://codepen.io/drmikeh/pen/W
 
 
 
-## CSS Specificity (10 min / 10:40)
+## CSS Specificity
 If I change the css selector from `p.red` back to `.red` you'll notice that the paragraph element with the id of green is still green. This is because of CSS Specificity. While CSS cascades from top to bottom. The CSS that is applied depends on Specificity as well. Take the following example:
 
 ```css
@@ -245,7 +249,8 @@ In this example the elements that have the class red, will ultimately have a bac
 You can read more about CSS specificity [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 You can access a CSS specificty calculator [here](http://specificity.keegan.st)
 
-## The Box Model! (15 min / 10:50)
+## The Box Model! 
+
 > One of the tricky things about CSS at first is the Box Model. But it's actually really simple. Let's break it down.
 
 ![](https://dl.dropboxusercontent.com/s/capg35hblhr6o7v/Screenshot%202015-10-13%2014.11.39.png?dl=0)
