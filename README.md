@@ -14,6 +14,12 @@
 
 ## Opening Framing: The Power of CSS (5 min / 10:00)
 
+Questions: 
+
+1. Who knows they want front-end vs. back-end
+1. Who finished the pre-work
+1. Who has played around with HTML/CSS/JS before WDI?
+
 To start this lesson, I want to mosey on over to my favorite website, [Twitter.com/GA_DC](https://twitter.com/GA_DC). It's pretty great. It's pretty fancy. But what would it be without CSS? Take 1 minute to talk with the people around you about how this wonder of the modern web would look different without CSS, and how that would impact your interactive with the site.
 
 > ST-WG: Share some ideas, then mute the stylesheets in Dev Tools and discuss anything surprising.
