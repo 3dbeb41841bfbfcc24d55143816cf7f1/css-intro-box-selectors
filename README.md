@@ -311,7 +311,7 @@ Now when we refresh, all of our 20% widths are the same regardless of padding. I
 ## We do- Wendy G Bite **Code Along** (60 min / 11:20)
 
 
-    https://github.com/ATL-WDI-Exercises/wendy_bite
+[Wendy Bite Code Along](https://github.com/ATL-WDI-Exercises/wendy_bite)
 
 I think we can knock out an easy one early on. I can see by looking at that page that the background color and text color are mostly similar. Additionally centering everything and giving it a little bit of a buffer with the padding/border/margin on the edges will be nice. Let's go ahead and change that in `styles.css`:
 
