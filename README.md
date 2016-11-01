@@ -36,7 +36,7 @@ At the crux of it all, the primary concept of CSS is to select an HTML element a
 Let's get started by creating a new html webpage that we'll call `index.html` in `~/Desktop`:
 
 ```bash
-$ cd ~/Desktop
+$ cd ~/ga/wdi
 $ mkdir css-intro
 $ cd css-intro
 $ touch index.html
